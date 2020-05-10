@@ -25,6 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9cd321e-b181-4d11-87a2-be26aecbaf4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/interface_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panic_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/defer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/defer_test.go" afterDir="false" />
     </list>
@@ -62,7 +64,7 @@
     <property name="last_opened_file_path" value="C:/Go" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Go Test.TestDeferPanic in defer_test.go">
+  <component name="RunManager" selected="Go Test.TestNilInterface in interface_test.go">
     <configuration name="TestDeferClosure in defer_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -93,33 +95,33 @@
       <pattern value="^TestDeferReturnVar1$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestDeferVar1 in defer_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNilInterface in interface_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/defer_test.go" />
-      <pattern value="^TestDeferVar1$" />
+      <filePath value="$PROJECT_DIR$/interface_test.go" />
+      <pattern value="^TestNilInterface$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestDeferVar3 in defer_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPanic1 in panic_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/defer_test.go" />
-      <pattern value="^TestDeferVar3$" />
+      <filePath value="$PROJECT_DIR$/panic_test.go" />
+      <pattern value="^TestPanic1$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestNilInterface in interface_test.go" />
+        <item itemvalue="Go Test.TestPanic1 in panic_test.go" />
         <item itemvalue="Go Test.TestDeferPanic in defer_test.go" />
         <item itemvalue="Go Test.TestDeferClosure in defer_test.go" />
         <item itemvalue="Go Test.TestDeferReturnVar1 in defer_test.go" />
-        <item itemvalue="Go Test.TestDeferVar3 in defer_test.go" />
-        <item itemvalue="Go Test.TestDeferVar1 in defer_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -153,22 +155,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588697276141" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1588778152636">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1588778950636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588778152636" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1588778152636">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588778950636" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1588778950635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588778152636" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1588778152636">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588778950635" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1588778950635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588778152636" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1588778152636">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588778950635" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1588778950636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588778152636" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588778950636" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1588777017418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
